@@ -54,7 +54,7 @@ jobs:
           uses: docker/build-push-action@v2 
           with:
             push: true
-            tags: pgorshkova/image-one:latest
+            tags: pgorshkova/image_one:latest
   
   deploy:
     runs-on: ubuntu-latest
